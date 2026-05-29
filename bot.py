@@ -6,7 +6,7 @@ from threading import Thread
 
 # Mengambil token dari Environment Variables Render
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '7986964958:AAHAtmFfMc7GNSUC_Z8PuRA2Q0fVYwf8MhA')
-DISCORD_WEBHOOK = os.environ.get('DISCORD_WEBHOOK', 'URL_WEBHOOK_DISCORD_KAMU')
+DISCORD_WEBHOOK = os.environ.get('DISCORD_WEBHOOK', 'https://discord.com/api/webhooks/1509838445982519347/3oP1brM2EusJZS811IfZHlAa7ja603pY6-Lu1xvcZ_TUHmjO7ruF13jO29GJaghhTMjW')
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 app = Flask(__name__)
