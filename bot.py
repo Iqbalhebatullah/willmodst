@@ -3,7 +3,7 @@ import requests
 import os
 
 # Mengambil token dari pengaturan variabel Heroku agar aman
-TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', 'TOKEN_BOT_TELEGRAM_KAMU_DISINI')
+TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '7986964958:AAHAtmFfMc7GNSUC_Z8PuRA2Q0fVYwf8MhA')
 DISCORD_WEBHOOK = os.environ.get('DISCORD_WEBHOOK', 'URL_WEBHOOK_DISCORD_KAMU_DISINI')
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
