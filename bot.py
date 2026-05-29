@@ -5,7 +5,7 @@ from flask import Flask
 from threading import Thread
 
 # Mengambil token dari Environment Variables Render
-TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', 'TOKEN_BOT_TELEGRAM_KAMU')
+TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '7986964958:AAHAtmFfMc7GNSUC_Z8PuRA2Q0fVYwf8MhA')
 DISCORD_WEBHOOK = os.environ.get('DISCORD_WEBHOOK', 'URL_WEBHOOK_DISCORD_KAMU')
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
